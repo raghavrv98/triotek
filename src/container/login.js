@@ -27,7 +27,7 @@ class Login extends React.Component {
 					<h1>Login Page</h1>
 					<form onSubmit={this.onSubmitHandler}>
 						<div className="form-group">
-							<label for="name">Email address</label>
+							<label for="name">Name</label>
 							<input type="text" onChange={this.inputChangeHandler} className="form-control" id="name" aria-describedby="name" placeholder="Enter name" />
 						</div>
 						<div className="form-group">
