@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* dashboard page */
+
+.outer {
+	padding: 100px;
+}
+
+.employee-list-table{
+	padding: 50px;
+}
+
+.logout, .add{
+	float: right;
+}
+
+.add{
+	margin-right: 20px;
+}
+
+.edit-icon{
+	color: blue;
+	font-size: 20px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.delete-icon{
+	color: red;
+	font-size: 20px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+/* add or edit page */
+
+.form-control{
+	width: 50%;
+}
